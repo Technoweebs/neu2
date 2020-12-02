@@ -1,0 +1,1 @@
+module.exports = require(__dirname + "/../bin/neu2.js");
