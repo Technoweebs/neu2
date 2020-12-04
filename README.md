@@ -107,6 +107,7 @@ neu2 help
 once Neu2 is installed on your computer.
 
 ## ToDo List
+  * Code the Release Command
   * Finish the README
   * Add a Plugin System
   * Fix bugs 🐞
