@@ -93,15 +93,13 @@ It has been somewhat tested on NodeJS 12, the older versions not being used much
      ```bash
      git clone https://github.com/TomaruDev/neu2.git
      ```
-2. If Git is used, you have to install the project with...
+2. If Git is used, you have to link the project with...
    * ... NPM:
      ```bash
-     npm install
 	 npm link
      ```
    * ... Yarn:
      ```bash
-     yarn install
 	 yarn link
      ```
 
@@ -118,6 +116,7 @@ once Neu2 is installed on your computer.
   * Code the Release Command
   * Finish the README
   * Add a Plugin System
+  * Fix Arg with one letter and two '-' for projects
   * Fix bugs 🐞
 
 ## Contributing
