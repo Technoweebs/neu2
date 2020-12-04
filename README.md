@@ -1,4 +1,5 @@
 [![Contributors][contributors-shield]][contributors-url]
+[![Commits][commits-shield]][commits-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
@@ -135,6 +136,8 @@ Thanks to the devs of NeutralinosJS for creating... *NeutralinoJS* !
 
 [contributors-shield]: https://img.shields.io/github/contributors/TomaruDev/neu2.svg?style=for-the-badge
 [contributors-url]: https://github.com/TomaruDev/neu2/graphs/contributors
+[commits-shield]: https://img.shields.io/github/commit-activity/m/TomaruDev/neu2?style=for-the-badge
+[commits-url]: https://github.com/TomaruDev/neu2/graphs/commit-activity
 [forks-shield]: https://img.shields.io/github/forks/TomaruDev/neu2.svg?style=for-the-badge
 [forks-url]: https://github.com/TomaruDev/neu2/network/members
 [stars-shield]: https://img.shields.io/github/stars/TomaruDev/neu2.svg?style=for-the-badge
