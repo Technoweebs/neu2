@@ -36,7 +36,6 @@ module.exports = {
 		
 		if(!fs.existsSync(options.dir)) {
 			options.newFolder = true;
-			console.log(options)
 			fs.mkdirSync(options.dir);
 		}
 
