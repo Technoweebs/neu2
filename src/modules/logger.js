@@ -13,14 +13,13 @@ module.exports = {
 		
 		options.app.stdout.on("data", (data) => {
 			log.write(`[${new Date().toISOString()}]: ${data}`);
+			neu.get("modules").exec("figlet");
 			console.log(`[${new Date().toISOString()}]: ${data}`);
 		});
 		
 		options.app.stderr.on("data", (data) => {
 			log.write(`[${new Date().toISOString()}]: ${data}`);
 			neu.get("modules").exec("figlet");
-			console.log("                An error has occured while attempting to run the app.");
-			console.log();
 			console.log(`[${new Date().toISOString()}]: ${data}`);
 		});
 		

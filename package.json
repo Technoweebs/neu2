@@ -1,6 +1,6 @@
 {
 	"name": "neu2",
-	"version": "2.0.0",
+	"version": "2.5.2",
 	"description": "A rework of the NeutralinoJS client, which add and patch many functions, and make creating a Neutralino app better.",
 	"main": "bin/neu2.js",
 	"bin": "bin/neu2.js",
