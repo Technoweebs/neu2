@@ -14,7 +14,7 @@ module.exports = {
 			let package = JSON.parse(fs.readFileSync(options.dir + "/package.json"));
 			let settings = JSON.parse(fs.readFileSync(options.dir + "/app/settings.json"));
 			
-			package.name = options.project.toLowerCase().replace(/[^\<>,;:\.*\[\]\(\)+?¿!&%@=]/gi, '').replace(/\s/g, '-');
+			package.name = options.project.toLowerCase().replace(/[\^'"\<>,;:\.*\[\]\(\)+?¿!&%@=]/gi, '').replace(/\s/g, '-');
 			package.license = options.license;
 
 			package.scripts = {...{
