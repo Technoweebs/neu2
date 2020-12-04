@@ -29,7 +29,7 @@ module.exports = {
 		if(options.targets == null) return neu.get("modules").exec("help", { doc: "create", message: "The targets you entered are invalid !" });
 		if(args[0] == undefined) return neu.get("modules").exec("help", { doc: "create", message: "You must enter a name for your project !" });
 		
-		if(options.dir == '') options.dir = args[0].replace(/[/\\?%*:|"<>]/g, '');
+		if(options.dir == '') options.dir = args[0].replace(/[/\\?%*:|'"<>]/g, '');
 		options.project = args[0];
 		
 		if(neu.get("modules").exec("checkFolder", options)) return neu.get("modules").exec("help", { doc: "create", message: "The folder you entered already exists and contain files !" });
