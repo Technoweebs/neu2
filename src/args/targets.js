@@ -5,7 +5,7 @@ module.exports = {
 		function: "Changes the build target(s)"
 	},
 	check: (args) => {
-		return args.join(' ').match(/ (-t|--targets) /i);
+		return / (-t|--targets) /i.test(' ' + args.join(' ') + ' ');
 	},
 
 	exec: (args, options) => {

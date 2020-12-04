@@ -5,7 +5,7 @@ module.exports = {
 		function: "Displays the help page"
 	},
 	check: (args) => {
-		return args.join(' ').match(/ (-h|--help) /i);
+		return / (-h|--help) /i.test(' ' + args.join(' ') + ' ');
 	},
 
 	exec: (args, options) => {

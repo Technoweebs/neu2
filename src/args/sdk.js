@@ -5,7 +5,7 @@ module.exports = {
 		function: "Changes the name of the SDK"
 	},
 	check: (args) => {
-		return args.join(' ').match(/ (-s|--sdk) /i);
+		return / (-s|--sdk) /i.test(' ' + args.join(' ') + ' ');
 	},
 
 	exec: (args, options) => {

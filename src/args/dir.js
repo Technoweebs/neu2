@@ -8,7 +8,7 @@ module.exports = {
 		function: "Changes the directory"
 	},
 	check: (args) => {
-		return args.join(' ').match(/ (-d|--dir) /i);
+		return / (-d|--dir) /i.test(' ' + args.join(' ') + ' ');
 	},
 
 	exec: (args, options) => {

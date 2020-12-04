@@ -7,7 +7,7 @@ module.exports = {
 		function: "Changes the project license"
 	},
 	check: (args) => {
-		return args.join(' ').match(/ (-l|--license) /i);
+		return / (-l|--license) /i.test(' ' + args.join(' ') + ' ');
 	},
 
 	exec: (args, options) => {
