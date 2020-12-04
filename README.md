@@ -3,7 +3,7 @@
     <img src="https://img.shields.io/github/contributors/TomaruDev/neu2.svg?style=for-the-badge">
   </a>
   <a href="https://github.com/TomaruDev/neu2/graphs/commit-activity">
-    <img src="https://img.shields.io/github/commit-activity/m/TomaruDev/neu2?style=for-the-badge">
+    <img src="https://img.shields.io/github/last-commit/TomaruDev/neu2?style=for-the-badge">
   </a>
   <a href="https://github.com/TomaruDev/neu2/stargazers">
     <img src="https://img.shields.io/github/stars/TomaruDev/neu2.svg?style=for-the-badge">
