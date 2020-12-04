@@ -29,8 +29,8 @@ module.exports = {
 		if(options.targets == null) return neu.get("modules").exec("help", { doc: "create", message: "The targets you entered are invalid !" });
 		if(args[0] == undefined) return neu.get("modules").exec("help", { doc: "create", message: "You must enter a name for your project !" });
 		
-		if(options.dir == '') options.dir = args[0].replace(/[/\\?%*:|'"<>]/g, '')
-		if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM1|COM2|COM3|COM4|COM5|COM6|COM7|COM8|COM9|LPT1|LPT2|LPT3|LPT4|LPT5|LPT6|LPT7|LPT8|LPT9)/gi, "nope");;
+		if(options.dir == '') options.dir = args[0].replace(/[/\\?%*:|'"<>]/g, '');
+		if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM(1-9)*|LPT(1-9)*)/gi, "nope");
 		options.project = args[0];
 		
 		if(neu.get("modules").exec("checkFolder", options)) return neu.get("modules").exec("help", { doc: "create", message: "The folder you entered already exists and contain files !" });
