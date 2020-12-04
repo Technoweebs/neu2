@@ -1,5 +1,5 @@
 const validPath = require("is-valid-path");
-const os = reqiore("os");
+const os = require("os");
 const path = require("path");
 
 module.exports = {

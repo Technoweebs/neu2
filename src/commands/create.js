@@ -1,4 +1,5 @@
 const neu = require(__dirname + "/../neu2.js");
+const os = require("os");
 const fs = require("fs");
 
 module.exports = {
