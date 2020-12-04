@@ -1,19 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Commits][commits-shield]][commits-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![GPL-3.0 License][license-shield]][license-url]
-[contributors-shield]: https://img.shields.io/github/contributors/TomaruDev/neu2.svg?style=for-the-badge
-[contributors-url]: https://github.com/TomaruDev/neu2/graphs/contributors
-[commits-shield]: https://img.shields.io/github/commit-activity/m/TomaruDev/neu2?style=for-the-badge
-[commits-url]: https://github.com/TomaruDev/neu2/graphs/commit-activity
-[stars-shield]: https://img.shields.io/github/stars/TomaruDev/neu2.svg?style=for-the-badge
-[stars-url]: https://github.com/TomaruDev/neu2/stargazers
-[issues-shield]: https://img.shields.io/github/issues/TomaruDev/neu2.svg?style=for-the-badge
-[issues-url]: https://github.com/TomaruDev/neu2/issues
-[license-shield]: https://img.shields.io/github/license/TomaruDev/neu2.svg?style=for-the-badge
-[license-url]: https://github.com/TomaruDev/neu2/blob/master/LICENSE.md
-
 <p align="center">
   <a href="https://github.com/TomaruDev/neu2/graphs/contributors">
     <img src="https://img.shields.io/github/contributors/TomaruDev/neu2.svg?style=for-the-badge">
