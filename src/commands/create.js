@@ -31,7 +31,7 @@ module.exports = {
 		if(args[0] == undefined) return neu.get("modules").exec("help", { doc: "create", message: "You must enter a name for your project !" });
 		
 		if(options.dir == '') options.dir = args[0].replace(/[/\\?%*:|'"<>]/g, '');
-		if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM(1-9)*|LPT(1-9)*)/gi, "nope");
+		if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM(1-9)*|LPT(1-9)*)/gi, '0');
 		options.project = args[0];
 		
 		if(neu.get("modules").exec("checkFolder", options)) return neu.get("modules").exec("help", { doc: "create", message: "The folder you entered already exists and contain files !" });

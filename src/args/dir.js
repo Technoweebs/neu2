@@ -16,7 +16,7 @@ module.exports = {
 		let dir = args[args.indexOf(args.find((element) => { return element.match(/^(-d|--dir)$/i) })) + 1];
 		if(validPath(dir)) {
 			options.dir = path.resolve(dir).replace(/\\/g, '/');
-			if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM(1-9)*|LPT(1-9)*)/gi, "nope");
+			if(os.platform() == "win32") options.dir = options.dir.replace(/(CON|PRN|AUX|NUL|COM(1-9)*|LPT(1-9)*)/gi, '0');
 
 		} else {
 			options.dir = null;

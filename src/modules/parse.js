@@ -24,6 +24,7 @@ module.exports = {
 			}, ...package.scripts};
 			
 			package.neu2 = {
+				project: options.project,
 				bin: options.sdk,
 				platforms: options.targets.join(';').replace(".exe", '').split(';'),
 				repo: options.template

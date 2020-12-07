@@ -36,7 +36,7 @@ module.exports = {
 		}
 		
 		if(!fs.existsSync("./" + options.bin)) return fileError();
-		if(options.bin.startsWith("./")) fs.chmodSync("./" + options.bin, 111);
+		fs.chmodSync("./" + options.bin, 111);
 		
 		app = spawn(options.bin);
 		neu.get("modules").exec("logger", { app: app });

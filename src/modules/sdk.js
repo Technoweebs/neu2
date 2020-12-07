@@ -7,14 +7,7 @@ const fs = require("fs");
 module.exports = {
 	name: "sdk",
 	exec: (options) => {
-		return new Promise((resolve, reject) => {
-			let newFolder = false;
-
-			if(!fs.existsSync(options.dir)) {
-				newFolder = true;
-				fs.mkdirSync(options.dir);
-			}
-			
+		return new Promise((resolve, reject) => {			
 			if(!fs.existsSync(options.dir + "/temp/")) fs.mkdirSync(options.dir + "/temp/");
 			
 			fetch("https://api.github.com/repos/neutralinojs/neutralinojs/releases/latest")
@@ -25,7 +18,7 @@ module.exports = {
 				
 				sdk.on("error", () => {
 					fse.removeSync(options.dir + "/temp/");
-					if(newFolder) fs.rmdirSync(options.dir);
+					if(options.newFolder) fs.rmdirSync(options.dir);
 					reject();
 				});
 
