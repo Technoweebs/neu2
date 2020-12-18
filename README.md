@@ -79,7 +79,6 @@ It hasn't been tested yet on Windows and MacOS (but that shouldn't be a problem)
 It has been somewhat tested on NodeJS 12, the older versions not being used much anymore, I don't think it will be a problem either. However, I'm waiting for your feedback!
 
 ### Installation
-(The project is not yet published on NPM. To test, you must use git. I'm sorry for that!)
 1. Download the project with...
    * ... NPM:
      ```bash
@@ -113,10 +112,8 @@ neu2 help
 once Neu2 is installed on your computer.
 
 ## ToDo List
-  * Code the Release Command
   * Finish the README
   * Add a Plugin System
-  * Fix Arg with one letter and two '-' for projects
   * Fix bugs 🐞
 
 ## Contributing
