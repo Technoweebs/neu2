@@ -18,7 +18,7 @@ module.exports = {
 			targets: ["win.exe", "mac", "linux"],
 			license: "MIT",
 			template: {
-				author: "TomaruDev",
+				author: "Technoweebs",
 				repo: "neu2-init",
 				branch: "main"
 			}
@@ -42,7 +42,7 @@ module.exports = {
 		}
 
 		if(args[1]) {
-			if(args[1].match(/^full$/i)) args[1] = "@TomaruDev/neu2-template";
+			if(args[1].match(/^full$/i)) args[1] = "@Technoweebs/neu2-template";
 			let repo;
 			
 			if(args[1].match(/^(https?:\/\/)?(www\.)?github\.com\/((?!.*(-){2,}.*)[a-z0-9][a-z0-9-]{0,38}[a-z0-9])\/[a-zA-Z0-9_\.-]+(\/tree\/[a-zA-Z0-9_\.-]+)?$/i)) {
