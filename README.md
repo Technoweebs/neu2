@@ -1,20 +1,20 @@
 <p align="center">
-  <a href="https://github.com/TomaruDev/neu2/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/TomaruDev/neu2.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/neu2/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/TomaruDev/neu2/graphs/commit-activity">
-    <img src="https://img.shields.io/github/last-commit/TomaruDev/neu2?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/neu2/graphs/commit-activity">
+    <img src="https://img.shields.io/github/last-commit/Technoweebs/neu2?style=for-the-badge">
   </a>
-  <a href="https://github.com/TomaruDev/neu2/stargazers">
-    <img src="https://img.shields.io/github/stars/TomaruDev/neu2.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/neu2/stargazers">
+    <img src="https://img.shields.io/github/stars/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/TomaruDev/neu2/issues">
-    <img src="https://img.shields.io/github/issues/TomaruDev/neu2.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/neu2/issues">
+    <img src="https://img.shields.io/github/issues/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/TomaruDev/neu2/blob/master/LICENSE.md">
-    <img src="https://img.shields.io/github/license/TomaruDev/neu2.svg?style=for-the-badge">
+  <a href="https://github.com/Technoweebs/neu2/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/github/license/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/TomaruDev/neu2">
+  <a href="https://github.com/Technoweebs/neu2">
     <img src="assets/neu2.gif" alt="Logo" width="300" height="150">
   </a>
 
@@ -24,11 +24,11 @@
     My personal rework of the <a href="https://neutralino.js.org"><strong>NeutralinoJS</strong></a> client, which add and patch many functions, and make creating a Neutralino app better and easier.
     <br />
     <br />
-    <a href="https://github.com/TomaruDev/neu2">Explore the docs</a>
+    <a href="https://github.com/Technoweebs/neu2">Explore the docs</a>
     ·
-    <a href="https://github.com/TomaruDev/neu2/issues">Report Bug</a>
+    <a href="https://github.com/Technoweebs/neu2/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TomaruDev/neu2/issues">Request Feature</a>
+    <a href="https://github.com/Technoweebs/neu2/issues">Request Feature</a>
   </p>
 </p>
 
@@ -69,7 +69,7 @@ Because I had a bad experience with [neu-cli](https://github.com/neutralinojs/ne
 ### Built With
 * [NodeJS](https://nodejs.org/)
 * [Yarn (the best Node.JS package manager 😇)](https://yarnpkg.com/)
-* [A lot of packages 😏](https://github.com/TomaruDev/neu2/blob/main/package.json)
+* [A lot of packages 😏](https://github.com/Technoweebs/neu2/blob/main/package.json)
 
 ## Getting Started
 ### Prerequisites
@@ -90,7 +90,7 @@ It has been somewhat tested on NodeJS 12, the older versions not being used much
      ```
    * ... Git:
      ```bash
-     git clone https://github.com/TomaruDev/neu2.git
+     git clone https://github.com/Technoweebs/neu2.git
      ```
 2. If Git is used, you have to link the project with...
    * ... NPM:
@@ -131,7 +131,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.md` for more information.
 ## Contact
 TomaruDev - [@MrTomaru](https://twitter.com/MrTomaru) - contact@tomaru.dev
 
-Project Link: [https://github.com/TomaruDev/neu2](https://github.com/TomaruDev/neu2)
+Project Link: [https://github.com/Technoweebs/neu2](https://github.com/Technoweebs/neu2)
 
 ## Acknowledgements
 Thanks to the devs of NeutralinosJS for creating... *NeutralinoJS* !
