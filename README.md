@@ -11,7 +11,7 @@
   <a href="https://github.com/Technoweebs/neu2/issues">
     <img src="https://img.shields.io/github/issues/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
-  <a href="https://github.com/Technoweebs/neu2/blob/master/LICENSE.md">
+  <a href="https://github.com/Technoweebs/neu2/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/Technoweebs/neu2.svg?style=for-the-badge">
   </a>
   <a href="https://github.com/Technoweebs/neu2">
